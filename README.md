@@ -58,3 +58,37 @@ url: https://www.udemy.com/course/dotnet-docker/learn/lecture/14975356#content
 ![alt text](image-13.png)
 ### IIS Support https connect
 url: https://learn.microsoft.com/en-us/virtualization/windowscontainers/samples?tabs=Application-frameworks
+
+## Publish to Dockerhub and Azure Container Registry
+
+### DockerHub
+```
+1. docker login
+2. docker tag <image_name> <user_name/files_name:version>
+3. docker push <image_name>
+Docker 取出
+* docker pull
+```
+![alt text](image-14.png)
+
+### Azure Container Registry
+![alt text](image-15.png)
+![alt text](image-16.png)
+```
+Use the information to login
+1. Docker login <Login_Server>
+2. The commands are the same as dockerhub
+```
+
+## Deploy .NET in Container
+![alt text](image-17.png)
+### Run with mount directory
+![alt text](image-18.png)
+### Publish to Azure
+![alt text](image-19.png)
+![alt text](image-20.png)
+```
+Add new service - Web App
+```
+![alt text](image-21.png)
+![alt text](image-22.png)
